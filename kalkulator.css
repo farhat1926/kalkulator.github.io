@@ -1,0 +1,83 @@
+body{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    align-content: center;
+}
+.card{
+    background-color: #f1f3f5 ;
+     box-shadow: inset 5px 5px 12px #fff,5px 5px 12px rgb(0, 0, 0, 1.16);
+    width: 300px;
+    height: 500px;
+    border-radius: 20px;
+    display: flex;
+    padding:20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.display{
+    background-color: #f1f3f5;
+    box-shadow:inset 2px 2px 11px #fff,5px 5px 12px rgb(0, 0, 0, 0.16);
+    height: 30%;
+    width: 100%; 
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.display input {
+    background-color: transparent;
+    border: none;
+    text-align: end;
+    font-size: 30px;
+    width: 90%;
+    outline: none;
+}
+.button{
+    background-color: transparent;
+    height: 75%;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-align: center; 
+    margin-top: 20px;
+}
+.tombol-kiri{
+    width: 70%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f1f3f5;
+
+
+}
+.tombol{
+    background-color: #f1f3f5;
+    box-shadow: inset 5px 5px 12px #fff,5px 5px 12px rgb(0, 0, 0, 0.16);
+    border-radius: none;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    cursor: pointer;
+    color: tomato;
+
+}
+.tombol:hover{
+    transform: scale(0.9);
+}
+.tombol-kanan{
+    width:30% ;
+    border-radius: 100px;
+    background-color: #f1f3f5;
+    box-shadow:inset 5px 5px 12px rgb(0, 0, 0, 0.67),5px 5px 12px brown; 
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+
+
+}
