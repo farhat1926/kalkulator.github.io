@@ -1,0 +1,47 @@
+apa ajalah
+.home .container-fluid {
+  position: relative;
+  width: -100%;
+  height: 15vh;
+  bottom: 0;
+}
+.home h1 {
+  color: var(--pink);
+  font-family: "sacramento";
+  font-size: 7rem;
+  font-weight: bold;
+  margin-top: 6 rem;
+}
+.home h2 {
+  color: #444;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  margin-top: none;
+}
+.home p {
+  font-size: 1.4rem;
+  color: #666;
+}
+.home .couple {
+  margin-top: 100px;
+}
+.home .couple h3 {
+  font-family: "sacramento";
+  font-size: 2.4rem;
+  color: var(--pink);
+  font-weight: bold;
+}
+.home .couple img {
+  width: 100%;
+}
+.home .heart {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  display: flex;
+  border-radius: 50%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) translateY(65px);
+}
